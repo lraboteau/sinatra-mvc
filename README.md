@@ -2,4 +2,5 @@
 
 ## Progress
 
-* Boilerplate startup  
+* Boilerplate startup
+* Add Slim as Ruby template language

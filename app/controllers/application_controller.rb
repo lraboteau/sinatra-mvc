@@ -7,7 +7,7 @@ class ApplicationController < Sinatra::Base
 
   get '/' do
     @hello = "Hello World from the homepage!"
-    erb :'homepage/index'
+    slim :'homepage/index'
   end
   
 end

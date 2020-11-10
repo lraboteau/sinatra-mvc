@@ -7,7 +7,7 @@ class PostsController < Sinatra::Base
 
   get '/posts' do
     @hello = Post.hello_world
-    erb :'posts/index'
+    slim :'posts/index'
   end
    
 end
