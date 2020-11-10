@@ -3,6 +3,8 @@ html lang="en" dir="ltr"
   head
     meta charset="utf-8"
     title Simple Sinatra MVC
+    link href="/assets/css/main.css" rel="stylesheet"
 
   body
     == yield
+    script data-main="/assets/js/app" src="/assets/js/lib/require.js"
